@@ -1,19 +1,3 @@
-Содержание репозитория:
-
-Файл preprocesing.py - код, с помощью которого проводилась предобработка корпусов.
-
-Папка corpora_preprocessed - папка с файлами, где каждый файл - предобработанный текст библии на данном языке.
-
-diff_corpora_creating.py - код, с помощью которого создавались словари частотностей н-грамм разного размера. 
-
-Папка dicts содержит словари, созданные с помощью diff_corpora_creating.py. В папке нет словарей размером 500k, 1M, full_text ввиду ограничения гитхаба на размер файлов.
-
-for_analys.py - пробный код, на основе которого были выбраны наиболее подходящие параметры для работы.
-
-langdetect_final.py - финальный вариант программы. 
-
-
-
 # Character N-gram Language Identification
 
 A lightweight language identification system based on character n-gram frequency profiles.
@@ -49,7 +33,7 @@ Language_Identification/
 └── README.md
 ```
 
-## File and Directory Descriptions
+### File and Directory Descriptions
 
 | File / Directory | Description |
 |---|---|
